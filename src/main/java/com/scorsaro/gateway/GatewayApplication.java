@@ -32,7 +32,7 @@ public class GatewayApplication {
                 .route(r -> r.path("/api/regions/**")
                         .uri("https://geo-horae.herokuapp.com"))
                 .route(r -> r.path("/chatbot")
-                        .uri("http://localhost:5000"))
+                        .uri("http://139.162.193.183:5000"))
                 .build();
     }
 

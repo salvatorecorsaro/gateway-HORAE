@@ -26,7 +26,7 @@ public class GatewayApplication {
                 .route(r -> r.path("/api/checkout/**")
                         .uri("https://peaceful-reef-97616.herokuapp.com"))
                 .route(r -> r.path("/api/orders/**")
-                        .uri("lhttps://peaceful-reef-97616.herokuapp.com"))
+                        .uri("https://peaceful-reef-97616.herokuapp.com"))
                 .route(r -> r.path("/api/countries/**")
                         .uri("https://geo-horae.herokuapp.com"))
                 .route(r -> r.path("/api/regions/**")
